@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
 <!--HEAD-END-->
-<link rel="stylesheet" href="styles.css?v=20261102-2">
+<link rel="stylesheet" href="styles.css?v=20261126">
 <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -44,6 +44,7 @@
   <symbol id="p-lap" viewBox="0 0 64 64"><rect x="12" y="12" width="40" height="26" rx="3"/><path d="M6 44h52l-4 6H10z"/><path d="M24 44l6-6h4l6 6"/><path d="M20 20h14M20 26h22M20 32h8"/></symbol>
   <symbol id="p-logo" viewBox="0 0 64 64"><path d="M32 6l14 22-14 30-14-30z"/><path d="M32 6v26"/><circle cx="32" cy="35" r="3.5"/><path d="M18 28h28"/><path d="M6 58h20M38 58h20"/></symbol>
   <symbol id="p-hood" viewBox="0 0 64 64"><path d="M22 10l-9 6-7 20 8 3 3-9v26h30V30l3 9 8-3-7-20-9-6q-10 10-20 0z"/><path d="M28 18v9M36 18v9"/><path d="M24 44h16"/></symbol>
+  <symbol id="p-lips" viewBox="0 0 64 64"><path d="M24 58V34h16v24z"/><path d="M24 34l2-8h12l2 8"/><path d="M27 26V14l10-6v18"/><path d="M48 12l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M14 20l1.4 3.6L19 25l-3.6 1.4L14 30l-1.4-3.6L9 25l3.6-1.4z"/></symbol>
   <symbol id="p-gift" viewBox="0 0 64 64"><rect x="10" y="26" width="44" height="10" rx="2"/><path d="M14 36v20h36V36"/><path d="M32 26v30"/><path d="M32 26c-6 0-14-2-14-8s8-6 14 8c6-14 14-14 14-8s-8 8-14 8z"/></symbol>
 </svg>
 
@@ -90,6 +91,7 @@
     <li><a href="#planes"><small>04</small>Planes</a></li>
     <li><a href="#registro"><small>05</small>Registro</a></li>
     <li><a href="#faq"><small>06</small>Preguntas</a></li>
+    <li><a href="aura-beauty-pink.html"><small>07</small>Aura Beauty Pink</a></li>
   </ol>
   <div class="mmenu__cta">
     <a href="#registro" class="btn btn--grad btn--block">Registrar mi emprendimiento</a>
@@ -244,18 +246,19 @@
       <div class="sec-head sec-head--split" style="margin-bottom:0">
         <div>
           <span class="eyebrow reveal">Explora por categoría</span>
-          <h2 class="h2 reveal">Cinco mundos, <em>un campus</em></h2>
+          <h2 class="h2 reveal">Seis mundos, <em>un campus</em></h2>
         </div>
         <p class="lede reveal" style="max-width:32ch">Toca una categoría y te llevamos directo a sus gemas.</p>
       </div>
       <div class="cats__bar" aria-hidden="true"><span id="catsBar"></span></div>
     </div>
     <div class="cats__track" id="catsTrack">
-      <button class="cat cat--moda" type="button" data-goto="Moda"><span class="cat__n">01 / 05</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-hood"/></svg><span><h3>Moda</h3><p>Accesorios artesanales, hoodies bordados y piezas hechas a mano.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
-      <button class="cat cat--comida" type="button" data-goto="Comida"><span class="cat__n">02 / 05</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-cafe"/></svg><span><h3>Comida</h3><p>Café de origen de autor y antojos preparados por estudiantes.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
-      <button class="cat cat--tec" type="button" data-goto="Tecnología"><span class="cat__n">03 / 05</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-lap"/></svg><span><h3>Tecnología</h3><p>Impresión 3D, accesorios y soluciones de makers del campus.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
-      <button class="cat cat--serv" type="button" data-goto="Servicios"><span class="cat__n">04 / 05</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-logo"/></svg><span><h3>Servicios</h3><p>Diseño de logo y marca, y talento creativo por encargo.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
-      <button class="cat cat--regalos" type="button" data-goto="Regalos Personalizados"><span class="cat__n">05 / 05</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-gift"/></svg><span><h3>Regalos <em>personalizados</em></h3><p>Ilustraciones y detalles únicos, hechos para una sola persona.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
+      <button class="cat cat--moda" type="button" data-goto="Moda"><span class="cat__n">01 / 06</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-hood"/></svg><span><h3>Moda</h3><p>Accesorios artesanales, hoodies bordados y piezas hechas a mano.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
+      <button class="cat cat--comida" type="button" data-goto="Comida"><span class="cat__n">02 / 06</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-cafe"/></svg><span><h3>Comida</h3><p>Café de origen de autor y antojos preparados por estudiantes.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
+      <button class="cat cat--tec" type="button" data-goto="Tecnología"><span class="cat__n">03 / 06</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-lap"/></svg><span><h3>Tecnología</h3><p>Impresión 3D, accesorios y soluciones de makers del campus.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
+      <button class="cat cat--serv" type="button" data-goto="Servicios"><span class="cat__n">04 / 06</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-logo"/></svg><span><h3>Servicios</h3><p>Diseño de logo y marca, y talento creativo por encargo.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
+      <button class="cat cat--regalos" type="button" data-goto="Regalos Personalizados"><span class="cat__n">05 / 06</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-gift"/></svg><span><h3>Regalos <em>personalizados</em></h3><p>Ilustraciones y detalles únicos, hechos para una sola persona.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
+      <button class="cat cat--belleza" type="button" data-goto="Belleza"><span class="cat__n">06 / 06</span><svg class="cat__art" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-lips"/></svg><span><h3>Belleza</h3><p>Maquillaje, skincare, calendarios de adviento y kits para regalar.</p><span class="cat__go">Ver gemas <svg><use href="#i-arrow"/></svg></span></span></button>
     </div>
   </div>
 </section>
@@ -276,6 +279,7 @@
         <button class="chip" type="button" data-cat="Tecnología" aria-pressed="false" style="--c:#00a6e0"><i></i>Tecnología</button>
         <button class="chip" type="button" data-cat="Servicios" aria-pressed="false" style="--c:#00b383"><i></i>Servicios</button>
         <button class="chip" type="button" data-cat="Regalos Personalizados" aria-pressed="false" style="--c:#8a5cff"><i></i>Regalos Personalizados</button>
+        <button class="chip" type="button" data-cat="Belleza" aria-pressed="false" style="--c:#ff4fa3"><i></i>Belleza</button>
         <button class="chip chip--fav" type="button" id="favChip" aria-pressed="false"><svg><use href="#i-heart"/></svg>Favoritos</button>
       </div>
       <div class="toolbar">
@@ -285,7 +289,7 @@
           <label class="field-inline"><select id="sort" aria-label="Ordenar"><option value="">Destacados</option><option value="asc">Menor precio</option><option value="desc">Mayor precio</option></select><svg class="caret" aria-hidden="true"><use href="#i-caret"/></svg></label>
           <label class="switch"><input type="checkbox" id="avail"><span class="switch__track"></span>Disponible ahora</label>
         </div>
-        <p class="count" id="count" aria-live="polite">Mostrando <b>6</b> de 6 gemas</p>
+        <p class="count" id="count" aria-live="polite">Mostrando <b>9</b> de 9 gemas</p>
       </div>
     </div>
 
@@ -314,6 +318,18 @@
         <div class="card__media" data-cursor="Ver"><svg class="card__icon" viewBox="0 0 64 64" aria-hidden="true"><use href="#p-hood"/></svg><span class="card__cat">Moda</span><button class="fav" type="button" aria-pressed="false" aria-label="Guardar Hoodie bordado a mano en favoritos"><svg><use href="#i-heart"/></svg></button></div>
         <div class="card__body"><span class="badge"><svg><use href="#i-gem"/></svg>Gema Verificada</span><h3>Hoodie bordado a mano</h3><p class="card__seller">Hilo &amp; Aguja · Zona CityU</p><div class="card__row"><span class="price">$95.000 <small>COP</small></span><span class="stock">Disponible</span></div><div class="card__actions"><button class="btn-line" type="button" data-quick><svg><use href="#i-eye"/></svg>Ver detalle</button><a class="btn-line btn-line--wa" href="https://wa.me/573108705851" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Contactar</a></div></div>
       </article>
+      <article class="card reveal" style="--d:0s;--c:#ff4fa3;--c2:#ff8fc4" data-id="aura-calendario-adviento" data-name="Calendario de adviento" data-cat="Belleza" data-price="70000" data-seller="Aura Beauty Pink" data-zone="Compra online" data-ok="1" data-art="p-lips" data-img="img/aura/calendario-adviento.webp">
+        <div class="card__media card__media--photo" data-cursor="Ver"><img class="card__photo" src="img/aura/calendario-adviento.webp" alt="Calendario de adviento de Aura Beauty Pink" loading="lazy" decoding="async"><span class="card__cat">Belleza</span><button class="fav" type="button" aria-pressed="false" aria-label="Guardar Calendario de adviento en favoritos"><svg><use href="#i-heart"/></svg></button></div>
+        <div class="card__body"><span class="badge badge--new"><svg><use href="#i-spark"/></svg>Nuevo en Hidden Gems</span><h3>Calendario de adviento</h3><p class="card__seller"><a href="aura-beauty-pink.html">Aura Beauty Pink</a> · Compra online</p><div class="card__row"><span class="price">$70.000 <small>COP</small></span><span class="stock">Disponible</span></div><div class="card__actions"><button class="btn-line" type="button" data-quick><svg><use href="#i-eye"/></svg>Ver detalle</button><a class="btn-line btn-line--wa" href="https://wa.me/573108705851?text=Hola%2C%20vi%20Calendario%20de%20adviento%20en%20Hidden%20Gems%20y%20quiero%20pedirlo." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Contactar</a></div></div>
+      </article>
+      <article class="card reveal" style="--d:.08s;--c:#ff2d8e;--c2:#ff9ac9" data-id="aura-kit-12" data-name="Kit 12 productos" data-cat="Belleza" data-price="50000" data-seller="Aura Beauty Pink" data-zone="Compra online" data-ok="1" data-art="p-lips" data-img="img/aura/kit-12.webp">
+        <div class="card__media card__media--photo" data-cursor="Ver"><img class="card__photo" src="img/aura/kit-12.webp" alt="Kit 12 productos de Aura Beauty Pink" loading="lazy" decoding="async"><span class="card__cat">Belleza</span><button class="fav" type="button" aria-pressed="false" aria-label="Guardar Kit 12 productos en favoritos"><svg><use href="#i-heart"/></svg></button></div>
+        <div class="card__body"><span class="badge badge--new"><svg><use href="#i-spark"/></svg>Nuevo en Hidden Gems</span><h3>Kit 12 productos</h3><p class="card__seller"><a href="aura-beauty-pink.html">Aura Beauty Pink</a> · Compra online</p><div class="card__row"><span class="price">$50.000 <small>COP</small></span><span class="stock">Disponible</span></div><div class="card__actions"><button class="btn-line" type="button" data-quick><svg><use href="#i-eye"/></svg>Ver detalle</button><a class="btn-line btn-line--wa" href="https://wa.me/573108705851?text=Hola%2C%20vi%20Kit%2012%20productos%20en%20Hidden%20Gems%20y%20quiero%20pedirlo." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Contactar</a></div></div>
+      </article>
+      <article class="card reveal" style="--d:.16s;--c:#d14fff;--c2:#ff7ab8" data-id="aura-polvo-de-hadas" data-name="Polvo de Hadas" data-cat="Belleza" data-price="10500" data-seller="Aura Beauty Pink" data-zone="Compra online" data-ok="1" data-art="p-lips" data-img="img/aura/polvo-de-hadas.webp">
+        <div class="card__media card__media--photo" data-cursor="Ver"><img class="card__photo" src="img/aura/polvo-de-hadas.webp" alt="Polvo de Hadas de Aura Beauty Pink" loading="lazy" decoding="async"><span class="card__cat">Belleza</span><button class="fav" type="button" aria-pressed="false" aria-label="Guardar Polvo de Hadas en favoritos"><svg><use href="#i-heart"/></svg></button></div>
+        <div class="card__body"><span class="badge badge--new"><svg><use href="#i-spark"/></svg>Nuevo en Hidden Gems</span><h3>Polvo de Hadas</h3><p class="card__seller"><a href="aura-beauty-pink.html">Aura Beauty Pink</a> · Compra online</p><div class="card__row"><span class="price">$10.500 <small>COP</small></span><span class="stock">Disponible</span></div><div class="card__actions"><button class="btn-line" type="button" data-quick><svg><use href="#i-eye"/></svg>Ver detalle</button><a class="btn-line btn-line--wa" href="https://wa.me/573108705851?text=Hola%2C%20vi%20Polvo%20de%20Hadas%20en%20Hidden%20Gems%20y%20quiero%20pedirlo." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Contactar</a></div></div>
+      </article>
     </div>
     <div class="empty" id="empty" hidden>
       <svg aria-hidden="true"><use href="#i-gem"/></svg>
@@ -326,9 +342,9 @@
 <dialog class="modal" id="modal" aria-labelledby="mTitle">
   <div class="modal__box">
     <button class="modal__close" type="button" id="mClose" aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-    <div class="modal__media" id="mMedia"><svg viewBox="0 0 64 64" aria-hidden="true"><use id="mArt" href="#p-acc"/></svg></div>
+    <div class="modal__media" id="mMedia"><svg viewBox="0 0 64 64" aria-hidden="true"><use id="mArt" href="#p-acc"/></svg><img class="modal__photo" id="mImg" alt="" hidden></div>
     <div class="modal__info">
-      <span class="badge"><svg><use href="#i-gem"/></svg>Gema Verificada</span>
+      <span class="badge" id="mBadge"><svg><use href="#i-gem"/></svg>Gema Verificada</span>
       <h3 id="mTitle">Producto</h3>
       <dl class="modal__meta">
         <dt>Creador</dt><dd id="mSeller"></dd>
@@ -346,6 +362,26 @@
     </div>
   </div>
 </dialog>
+
+<!-- ============ AURA BEAUTY PINK (featured) ============ -->
+<section class="section ab-spot" id="aura-beauty" style="padding-top:0">
+  <div class="wrap">
+    <div class="ab-spot__card reveal">
+      <div class="ab-hearts" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="ab-spot__copy">
+        <span class="eyebrow">Gema destacada</span>
+        <div class="ab-spot__brand"><img class="ab-spot__logo" src="img/aura/logo.webp" alt="Logo de Aura Beauty Pink" width="320" height="320" loading="lazy"><h2 class="h2">Aura <em class="ab-script">Beauty Pink</em></h2></div>
+        <p class="lede">Maquillaje, skincare y accesorios en clave rosa: calendarios de adviento, kits para regalar y dinámicas como la ruleta de la belleza. Si no tienen el producto que buscas, te lo consiguen.</p>
+        <ul class="ab-facts"><li><b>22</b><span>productos</span></li><li><b>$1.500</b><span>desde</span></li><li><b>Kits</b><span>a tu medida</span></li></ul>
+        <div class="hero__ctas">
+          <a href="aura-beauty-pink.html" class="btn btn--grad magnetic">Ver su catálogo <svg><use href="#i-arrow"/></svg></a>
+          <a href="aura-beauty-pink.html#crea-tu-kit" class="btn btn--ghost magnetic">Crea tu kit</a>
+        </div>
+      </div>
+      <a class="ab-fan" id="abFan" href="aura-beauty-pink.html" aria-label="Ver el catálogo de Aura Beauty Pink"><figure class="ab-fan__ph" style="--i:-2"><img src="img/aura/calendario-adviento.webp" alt="" loading="lazy" decoding="async"><figcaption>Calendario de adviento<b>$70.000</b></figcaption></figure><figure class="ab-fan__ph" style="--i:-1"><img src="img/aura/kit-8.webp" alt="" loading="lazy" decoding="async"><figcaption>Kit 8 productos<b>$35.000</b></figcaption></figure><figure class="ab-fan__ph" style="--i:0"><img src="img/aura/polvo-de-hadas.webp" alt="" loading="lazy" decoding="async"><figcaption>Polvo de Hadas<b>$10.500</b></figcaption></figure><figure class="ab-fan__ph" style="--i:1"><img src="img/aura/gloss-labial.webp" alt="" loading="lazy" decoding="async"><figcaption>Gloss / Labial<b>$7.000</b></figcaption></figure><figure class="ab-fan__ph" style="--i:2"><img src="img/aura/kit-12.webp" alt="" loading="lazy" decoding="async"><figcaption>Kit 12 productos<b>$50.000</b></figcaption></figure></a>
+    </div>
+  </div>
+</section>
 
 <!-- ============ PLANS ============ -->
 <section class="section" id="planes" style="padding-top:0">
@@ -554,7 +590,7 @@
         <p class="footer__blurb">Grandes ideas, en un solo lugar. Vitrina digital de emprendimientos de la comunidad universitaria.</p>
         <p class="footer__slogan gt">APOYA • DESCUBRE • HAZ CRECER</p>
       </div>
-      <div><h4>Explora</h4><ul><li><a href="#nosotros">Nosotros</a></li><li><a href="#que-hacemos">Qué hacemos</a></li><li><a href="#catalogo">Descubrir gemas</a></li><li><a href="#planes">Planes</a></li><li><a href="#registro">Registro</a></li></ul></div>
+      <div><h4>Explora</h4><ul><li><a href="#nosotros">Nosotros</a></li><li><a href="#que-hacemos">Qué hacemos</a></li><li><a href="#catalogo">Descubrir gemas</a></li><li><a href="#planes">Planes</a></li><li><a href="#registro">Registro</a></li><li><a href="aura-beauty-pink.html">Aura Beauty Pink</a></li></ul></div>
       <div><h4>Ayuda</h4><ul><li><a href="#faq">Preguntas frecuentes</a></li><li><a href="plan-pro.html#contrato">Contratos y términos</a></li><li><a href="plan-pro.html#datos">Tratamiento de datos</a></li><li><a href="#registro">Registro</a></li></ul></div>
       <div><h4>Contacto</h4><ul><li><a href="https://wa.me/573108705851" target="_blank" rel="noopener">WhatsApp</a></li><li><a href="https://www.hiddengems.com" target="_blank" rel="noopener">www.hiddengems.com</a></li><li><a href="#nosotros">Zona CityU &amp; Centro de Bogotá</a></li></ul></div>
     </div>
@@ -568,6 +604,6 @@
 <a href="#inicio" class="totop" id="totop" aria-label="Volver arriba"><svg class="ring" viewBox="0 0 54 54" aria-hidden="true"><circle cx="27" cy="27" r="25" id="totopRing" stroke-dasharray="157" stroke-dashoffset="157"/></svg><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
 <!--BODY-END-->
 <script src="config.js?v=20261102" defer></script>
-<script src="main.js?v=20261102" defer></script>
+<script src="main.js?v=20261126" defer></script>
 </body>
 </html>

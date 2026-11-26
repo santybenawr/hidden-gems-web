@@ -17,6 +17,8 @@ Vitrina digital de los emprendimientos universitarios de la zona CityU y el Cent
 |---|---|
 | `index.html` | Página principal |
 | `plan-*.html` | Páginas de cada plan con su contrato |
+| `aura-beauty-pink.html` | Página de Aura Beauty Pink: catálogo, "Crea tu kit", dinámicas y proceso de compra |
+| `img/aura/` | Logo y fotos de productos de Aura Beauty Pink |
 | `styles.css` | Estilos y animaciones |
 | `main.js` | Interacciones, catálogo y formulario de registro |
 | `config.js` | URL del proyecto de Supabase y su clave pública |
